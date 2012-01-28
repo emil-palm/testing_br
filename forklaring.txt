@@ -1,0 +1,28 @@
+Bracket -> Rounds -> Matches
+
+En bracket har flera rundor, en runda har flera matcher. Round har en metod som heter: match_count som returnerar det faktiska antalet matcher i rundan. (Då Round.matches inte alltid innehåller rätt antal objekt utan kommer innehålla placeholders)
+
+Det jag behehöver göra är att generera en tabell i varnligt format där det blir:
+
+<table>
+	<tr>
+		<td>Match 1 Round 1 </td>
+		<td>Match 1 Round 2 </td>
+		<td>Match 1 Round 3 </td>
+		<td>Match 1 Round 4 </td>
+	</tr>
+	<tr>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+		<td>Match 2 Round 1 </td>
+		<td>Match 2 Round 2 </td>
+	</tr>
+
+	<tr>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+		<td>&nbsp</td>
+		<td>Match 1 Round 3 </td>
+	</tr>
+
+</table>
